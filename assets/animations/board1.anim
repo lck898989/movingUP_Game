@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "board1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 0.4,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            -661
+          ],
+          "curve": "cubicInOut",
+          "motionPath": []
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": [
+            0,
+            -272
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,2 +1,2 @@
-# movingUP_Game
+# movingUp
 a moving up game

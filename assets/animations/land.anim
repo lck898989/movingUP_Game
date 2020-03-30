@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "land",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -375,
+            -1490.232,
+            0
+          ]
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            -375,
+            -1441.407,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}
