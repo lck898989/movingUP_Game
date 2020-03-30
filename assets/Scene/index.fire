@@ -1510,7 +1510,7 @@
         "__id__": 63
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 66
@@ -2816,7 +2816,7 @@
         "__uuid__": "e147c126-a067-4f63-9912-26b60c7163a9"
       }
     ],
-    "playOnLoad": true,
+    "playOnLoad": false,
     "_id": "25SsYHRw5C162vXWRUA8o0"
   },
   {

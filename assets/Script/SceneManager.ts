@@ -48,8 +48,10 @@ export default class SceneManager extends cc.Component{
                 this.setLayerVisible([state]);
                 break;
             case LayerState.SETTING:
+                console.log("开始显示设置界面");
                 this.setLayerVisible([state]);
-                this.settingNode.getComponent(cc.Animation).play("settingIn");
+                let inAnim: string = this.settingNode.getComponent(cc.Animation).getClips()[0].name;
+                this.settingNode.getComponent(cc.Animation).play(inAnim);
                 break;
             case LayerState.MASK:
                 this.setLayerVisible([state]);
@@ -75,6 +77,7 @@ export default class SceneManager extends cc.Component{
             }
         }
         for(let i = 0; i < showNodeArr.length; i++) {
+            console.log("界面被打开",showNodeArr[i].active," 界面节点的名字是：",showNodeArr[i].name," 透明度为",showNodeArr[i].opacity);
             showNodeArr[i].active = true;
             if(showNodeArr[i].name.indexOf("mask") >= 0) {
                 showNodeArr[i].opacity = 125;
