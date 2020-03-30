@@ -8,7 +8,8 @@
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import { MusicState, eType } from "../consts/Consts";
+import { MusicState, eType, LayerState } from "../consts/Consts";
+import SceneManager from "../SceneManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -48,6 +49,11 @@ export default class Settings extends cc.Component {
         if(data === "back") {
             this.node.getComponent(cc.Animation).play("settingOut");
         }
+    }
+    // 
+    settingOutOver(): void {
+        let sceneManager: SceneManager = <SceneManager>cc.find("Controller").getComponent("SceneManager");
+        sceneManager.LS = LayerState.NONE;
     }
     private tapEffect(): void {
         if(MusicState.effectState === eType.ON) {

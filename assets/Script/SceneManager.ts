@@ -42,6 +42,7 @@ export default class SceneManager extends cc.Component{
         switch(state) {
             case LayerState.NONE:
                 this.node.active = false;
+                // this.setLayerVisible([]);
                 break;
             case LayerState.EFFECT:
                 this.setLayerVisible([state]);
@@ -69,11 +70,17 @@ export default class SceneManager extends cc.Component{
                     showNodeArr.push(this.node.children[i]);
                 } else {
                     this.node.children[i].active = false;
+                    this.node.children[i].opacity = 0;
                 }
             }
         }
         for(let i = 0; i < showNodeArr.length; i++) {
             showNodeArr[i].active = true;
+            if(showNodeArr[i].name.indexOf("mask") >= 0) {
+                showNodeArr[i].opacity = 125;
+            } else {
+                showNodeArr[i].opacity = 255;
+            }
         }
     }
     private chooseLevel(data: any): void {
