@@ -32,7 +32,7 @@ export default class User extends cc.Component {
             localData.push({level,time});
             cc.sys.localStorage.setItem("my",JSON.stringify(localData));
         } else {
-            if(level >= 1 && localData.length > 0 && localData[level - 1].level === level) {
+            if(level >= 1 && localData && localData.length > 0 && localData[level - 1].level === level) {
                 // 更新记录（如果新传递进来的时间大于记录的时间不用更新否则更新）
                 let curTimeString = localData[level - 1].time;
                 if(curTimeString === "00:00") {

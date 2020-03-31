@@ -292,6 +292,7 @@ export default class Game extends cc.Component {
         }
     }
     private tapStart(e: cc.Event.EventTouch): void {
+        this.startTime = true;
         if(e.getLocation().x > this.node.width / 2) {
             this.Dir = Direction.RIGHT;
         } else if(e.getLocation().x < this.node.width / 2) {
@@ -299,6 +300,7 @@ export default class Game extends cc.Component {
         }
     }
     private tapBoard(e: cc.Event.EventTouch): void {
+        this.startTime = true;
         console.log("e.target is ",e.target," name is ",e.target.name);
         e.stopPropagation();
         if(e.target.name === "boardTouch") {

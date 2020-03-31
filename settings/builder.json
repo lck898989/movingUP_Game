@@ -24,7 +24,7 @@
     "packageName": ""
   },
   "ios": {
-    "packageName": ""
+    "packageName": "org.cocos2d.linegame"
   },
   "mac": {
     "packageName": ""
