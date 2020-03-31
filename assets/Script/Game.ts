@@ -43,6 +43,8 @@ export default class Game extends cc.Component {
     holeCon: cc.Node = null;
     @property(cc.Node)
     overMenu: cc.Node = null;
+    @property(cc.Node)
+    boardTouch: cc.Node = null;
 
     private speed: number = 1;
     
@@ -67,6 +69,9 @@ export default class Game extends cc.Component {
     private poolDeep: number = 40;
 
     private holeWinNode: cc.Node = null;
+    private startPosition: cc.Vec2 = cc.v2(0,0);
+
+    private moving: boolean = false;
 
     async onLoad () {
         // this.overMenu.active = false;
@@ -85,6 +90,14 @@ export default class Game extends cc.Component {
         cc.director.on("ballToHole",this.overHandle,this);
         cc.director.on("ballToBoard",this.ballToBoardHandle,this);
         cc.director.on("ballToLand",this.ballToLandHandle,this);
+        // 添加移动端事件监听
+        this.node.on("touchstart",this.tapStart,this);
+        this.node.on("touchend",this.tapEnd,this);
+       
+        this.boardTouch.on("touchstart",this.tapBoard,this);
+        this.boardTouch.on("touchmove",this.tapMove,this);
+        this.boardTouch.on("touchend",this.tapBoardEnd,this);
+        this.boardTouch.on(cc.Node.EventType.TOUCH_CANCEL,this.tapBoardEnd,this);
 
         // 初始化相关代码
         this.initHoleGrid();
@@ -278,6 +291,39 @@ export default class Game extends cc.Component {
                 break;    
         }
     }
+    private tapStart(e: cc.Event.EventTouch): void {
+        if(e.getLocation().x > this.node.width / 2) {
+            this.Dir = Direction.RIGHT;
+        } else if(e.getLocation().x < this.node.width / 2) {
+            this.Dir = Direction.LEFT;
+        }
+    }
+    private tapBoard(e: cc.Event.EventTouch): void {
+        console.log("e.target is ",e.target," name is ",e.target.name);
+        e.stopPropagation();
+        if(e.target.name === "boardTouch") {
+            this.startPosition = e.getLocation();
+        }
+    }
+    private tapMove(e: cc.Event.EventTouch): void {
+        this.moving = true;
+        if(this.startPosition.x !== 0 && this.startPosition.y !== 0) {
+            if((this.startPosition.y - e.getLocation().y) >= 0) {
+                this.Dir = Direction.DOWN;
+            } else if((this.startPosition.y - e.getLocation().y) <= 0) {
+                this.Dir = Direction.UP;
+            }
+        }
+    }
+    private tapBoardEnd(e: cc.Event.EventTouch): void {
+        
+        this.Dir = Direction.NONE;
+        this.moving = false;
+    }
+    private tapEnd(): void {
+        this.Dir = Direction.NONE;
+        this.moving = false;
+    }
     private onKeyDown(e: cc.Event.EventKeyboard): void {
         console.log(e.keyCode);
         if(this.canMove) {
@@ -311,6 +357,13 @@ export default class Game extends cc.Component {
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown,this);
         cc.director.off("ballToHole",this.ballToHoleHandle,this);
         cc.director.off("ballToBoard",this.ballToBoardHandle,this);
+
+        this.node.off("touchstart",this.tapStart,this);
+        this.node.off("touchend",this.tapEnd,this);
+       
+        this.board.off("touchstart",this.tapBoard,this);
+        this.board.off("touchmove",this.tapMove,this);
+        this.board.off("touchend",this.tapEnd,this);
         
     }
     private updateLevelOrTime(dt: number): void {

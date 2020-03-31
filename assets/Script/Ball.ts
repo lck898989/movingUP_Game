@@ -39,6 +39,5 @@ export default class Ball extends cc.Component {
 
     update (dt) {
         // console.log("物理系统状态",cc.director.getPhysicsManager().enabled);
-        console.log("ball.y is ",this.node.y);
     }
 }
