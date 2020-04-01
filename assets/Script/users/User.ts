@@ -16,6 +16,7 @@ export default class User extends cc.Component {
     }
     public setBestRecord(level: number,time: string): void {
         let localDataString: any = cc.sys.localStorage.getItem("my");
+        console.log("localDataString is ",localDataString);
         let localData: BestRecore[];
         // 取出游戏记录
         if(localDataString && localDataString !== "" && localDataString !== "undefined") {
@@ -25,12 +26,15 @@ export default class User extends cc.Component {
             firstData.push({level: level,time: time});
             // 创建一个记录
             cc.sys.localStorage.setItem("my",JSON.stringify(firstData));
+            console.log("创建首个记录，添加到本地存储了,存储数据是：",cc.sys.localStorage.getItem("my"));
+            localData = JSON.parse(cc.sys.localStorage.getItem("my"));
         }
         if(level > 1 && localData && localData.length > 0 && !localData[level - 1]) {
             // 新加记录
             // this.bestRecord.push({level: level,time: time});
             localData.push({level,time});
             cc.sys.localStorage.setItem("my",JSON.stringify(localData));
+            console.log("添加到本地存储了,存储数据是：",cc.sys.localStorage.getItem("my"));
         } else {
             if(level >= 1 && localData && localData.length > 0 && localData[level - 1].level === level) {
                 // 更新记录（如果新传递进来的时间大于记录的时间不用更新否则更新）
@@ -45,8 +49,8 @@ export default class User extends cc.Component {
                         localData[level - 1].time = time;
                     } 
                 }
+                cc.sys.localStorage.setItem("my",JSON.stringify(localData));
             }
-            cc.sys.localStorage.setItem("my",JSON.stringify(localData));
         }
         
     }
@@ -62,6 +66,7 @@ export default class User extends cc.Component {
     }
     public getBestRecord(level: number): BestRecore {
         let res: BestRecore[];
+        console.log("本地存储中my is ",cc.sys.localStorage.getItem("my"));
         if(cc.sys.localStorage.getItem("my") === "undefined" || !cc.sys.localStorage.getItem("my")) {
             res = null;
             return null;

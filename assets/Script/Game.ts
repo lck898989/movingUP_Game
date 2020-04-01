@@ -174,10 +174,7 @@ export default class Game extends cc.Component {
     private async overHandle(data: any) {
         this.startTime = false;
         if(data.over === "win") {
-            console.log("开始播放游戏场景动画");
             await this.ballToHoleHandle(this.holeWinNode);
-            console.log("游戏场景动画播放完毕");
-            console.log("开始播放结束菜单动画");
             if(this.over) {
                 this.overMenu.getChildByName("tryLabel").getComponent(cc.Label).string = "SUCCESS";
                 this.overMenu.getChildByName("successCon").active = true;

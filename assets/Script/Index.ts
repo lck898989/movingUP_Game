@@ -28,16 +28,17 @@ export default class Index extends cc.Component {
     rootNode: cc.Node = null;
     start () {
         cc.game.addPersistRootNode(this.rootNode);
-        console.log("MusicState is ",MusicState.musicState === eType.ON);
+    }
+    private playBg(): void {
         if(MusicState.musicState === eType.ON) {
             console.log("music is playing ",cc.audioEngine.isMusicPlaying());
             if(!cc.audioEngine.isMusicPlaying()) {
                 cc.audioEngine.playMusic(this.bgm,true);
             } 
         }
-        // cc.sys.localStorage.setItem("my",undefined);
     }
     btnEvent(e: cc.Event,data: any): void {
+        this.playBg();
         if(data === "game") {
             cc.director.loadScene("Game");
             
