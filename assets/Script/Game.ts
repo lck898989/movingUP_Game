@@ -1,6 +1,7 @@
 import ResourceManager from "./managers/ResourceManager";
 import SceneManager from "./SceneManager";
 import User from "./users/User";
+import Command from "./designPatternDir/Command";
 
 const {ccclass, property} = cc._decorator;
 enum Direction {
@@ -62,8 +63,8 @@ export default class Game extends cc.Component {
     
 
     private gridMap: cc.Vec2[][];
-    private readonly gridWidth: number = 70;
-    private readonly gridHeight: number = 70;
+    private gridWidth: number = 70;
+    private gridHeight: number = 70;
 
     private loseHolePool: cc.NodePool = null;
     private poolDeep: number = 40;
@@ -116,6 +117,8 @@ export default class Game extends cc.Component {
             let col: number = this.levelData.col;
             // 行
             let row: number = this.levelData.row;
+            this.gridWidth = this.node.width / col;
+            this.gridHeight = this.node.height / row;
             for(let i = 0; i < row; i++) {
                 this.gridMap[i] = [];
                 for(let j = 0; j < col; j++) {
@@ -155,6 +158,7 @@ export default class Game extends cc.Component {
                     console.log("从节点池中获取的节点是：",loseHoleNode);
                     if(loseHoleNode) {
                         loseHoleNode.setPosition(this.gridMap[posObj.row][posObj.col]);
+                        loseHoleNode.scale = Number(objects[i].scaleMultiplier);
                         this.holeCon.addChild(loseHoleNode);
                     }
                 }
@@ -363,6 +367,9 @@ export default class Game extends cc.Component {
         this.board.off("touchstart",this.tapBoard,this);
         this.board.off("touchmove",this.tapMove,this);
         this.board.off("touchend",this.tapEnd,this);
+        
+    }
+    public execute(): void {
         
     }
     private updateLevelOrTime(dt: number): void {

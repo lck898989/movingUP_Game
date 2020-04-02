@@ -21,8 +21,8 @@ export default class Index extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
-    @property({type: cc.AudioClip})
-    bgm: cc.AudioClip = null;
+    @property([cc.AudioClip])
+    public bgm: cc.AudioClip[] = [];
     // 常驻节点
     @property(cc.Node)
     rootNode: cc.Node = null;
@@ -32,8 +32,10 @@ export default class Index extends cc.Component {
     private playBg(): void {
         if(MusicState.musicState === eType.ON) {
             console.log("music is playing ",cc.audioEngine.isMusicPlaying());
+            let randomIndex: number = Math.floor(Math.random() * 3);
+            console.log("randomIndex is ",randomIndex);
             if(!cc.audioEngine.isMusicPlaying()) {
-                cc.audioEngine.playMusic(this.bgm,true);
+                cc.audioEngine.playMusic(this.bgm[randomIndex],true);
             } 
         }
     }

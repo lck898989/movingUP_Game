@@ -177,7 +177,7 @@
       "array": [
         0,
         0,
-        427.81049454778673,
+        497.09858177226783,
         0,
         0,
         0,
@@ -506,6 +506,8 @@
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -765,6 +767,8 @@
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -1484,13 +1488,21 @@
       "__id__": 8
     },
     "_enabled": true,
-    "bgm": {
-      "__uuid__": "5336d7ff-8db9-457e-9569-257a90e9ccd7"
-    },
+    "bgm": [
+      {
+        "__uuid__": "5336d7ff-8db9-457e-9569-257a90e9ccd7"
+      },
+      {
+        "__uuid__": "32b84e4d-cbfd-43ef-9475-f8ae5770b36d"
+      },
+      {
+        "__uuid__": "d3be72dc-c70d-4f8f-80aa-56800575f7aa"
+      }
+    ],
     "rootNode": {
       "__id__": 33
     },
-    "_id": "a2OSBRlkxPFa6nd7+Ht4sc"
+    "_id": "13oJ5ROihJGLm7W5Jew/n1"
   },
   {
     "__type__": "cc.Node",
@@ -2413,6 +2425,8 @@
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
     "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "serif",
@@ -2505,6 +2519,8 @@
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "serif",
@@ -3161,6 +3177,7 @@
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
     "_originalWidth": 0,
-    "_originalHeight": 0
+    "_originalHeight": 0,
+    "_id": "a9eplHZHdH9JSMDizqHFxP"
   }
 ]

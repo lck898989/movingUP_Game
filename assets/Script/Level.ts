@@ -37,9 +37,9 @@ export default class Level extends cc.Component {
             for(let j = 0; j < this.col; j++) {
                 levelNum++;
                 let levelItemNode: cc.Node = cc.instantiate(this.levetBtn);
-                if(i >= 1) {
-                    levelItemNode.getComponent(cc.Button).interactable = false;
-                }
+                // if(i >= 1) {
+                //     levelItemNode.getComponent(cc.Button).interactable = false;
+                // }
                 levelItemNode.setPosition(cc.v2(this.startX + j * (this.btnWidth + this.spaceX),this.startY - i * (this.btnHeight + this.spaceY)));
                 this.levelBtnsCon.addChild(levelItemNode);
                 levelItemNode.name = i.toString();

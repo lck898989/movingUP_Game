@@ -1,0 +1,210 @@
+{
+    "col": 6,
+    "row": 10,
+    "objects": [
+      {
+        "pos": {
+          "row": 9,
+          "col": 4
+        },
+        "offsetMultiplier": {
+          "row": 0.01,
+          "col": 0.01
+        },
+        "scaleMultiplier": 1,
+        "type": "finish"
+      },
+      {
+        "pos": {
+          "row": 5,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.944,
+          "col": -0.431
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 4,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.931,
+          "col": -0.444
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 6,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.903,
+          "col": -0.431
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 7,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.861,
+          "col": -0.444
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 8,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.819,
+          "col": -0.444
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 9,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.778,
+          "col": -0.431
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 2,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.861,
+          "col": -0.444
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 1,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -0.875,
+          "col": -0.444
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 9,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.75,
+          "col": 0.222
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 7,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.833,
+          "col": 0.167
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 6,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.875,
+          "col": 0.125
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 5,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.903,
+          "col": 0.139
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 4,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.972,
+          "col": 0.125
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 3,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.931,
+          "col": 0.167
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 2,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -0.944,
+          "col": 0.167
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 1,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -1,
+          "col": 0.167
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      }
+    ]
+  }

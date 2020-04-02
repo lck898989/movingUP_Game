@@ -1,0 +1,150 @@
+{
+    "col": 10,
+    "row": 10,
+    "objects": [
+      {
+        "pos": {
+          "row": 5,
+          "col": 8
+        },
+        "offsetMultiplier": {
+          "row": -1.125,
+          "col": -0.5
+        },
+        "scaleMultiplier": 1,
+        "type": "boost"
+      },
+      {
+        "pos": {
+          "row": 3,
+          "col": 3
+        },
+        "offsetMultiplier": {
+          "row": -1.25,
+          "col": 0.167
+        },
+        "scaleMultiplier": 1,
+        "type": "boost"
+      },
+      {
+        "pos": {
+          "row": 8,
+          "col": 5
+        },
+        "offsetMultiplier": {
+          "row": -1.028,
+          "col": -0.139
+        },
+        "scaleMultiplier": 1,
+        "type": "boost"
+      },
+      {
+        "pos": {
+          "row": 5,
+          "col": 1
+        },
+        "offsetMultiplier": {
+          "row": -1,
+          "col": -0.389
+        },
+        "scaleMultiplier": 1,
+        "type": "finish"
+      },
+      {
+        "pos": {
+          "row": 5,
+          "col": 2
+        },
+        "offsetMultiplier": {
+          "row": -1,
+          "col": 0.278
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 6,
+          "col": 2
+        },
+        "offsetMultiplier": {
+          "row": -1.028,
+          "col": -0.306
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 4,
+          "col": 2
+        },
+        "offsetMultiplier": {
+          "row": -0.986,
+          "col": -0.264
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 4,
+          "col": 1
+        },
+        "offsetMultiplier": {
+          "row": -1.222,
+          "col": -0.292
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 4,
+          "col": 0
+        },
+        "offsetMultiplier": {
+          "row": -0.778,
+          "col": -0.417
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 5,
+          "col": 0
+        },
+        "offsetMultiplier": {
+          "row": -0.861,
+          "col": -0.167
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 6,
+          "col": 2
+        },
+        "offsetMultiplier": {
+          "row": -1.028,
+          "col": 0.458
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      },
+      {
+        "pos": {
+          "row": 6,
+          "col": 1
+        },
+        "offsetMultiplier": {
+          "row": -0.694,
+          "col": -0.431
+        },
+        "scaleMultiplier": 1,
+        "type": "hole"
+      }
+    ]
+  }

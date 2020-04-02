@@ -1,0 +1,1927 @@
+{
+  "col": 25,
+  "row": 20,
+  "spikeOffset": 2,
+  "objects": [
+    {
+      "pos": {
+        "row": 13,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": 0.417
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -1.146,
+        "y": 0.333
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -0.687,
+        "y": 0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -1.292,
+        "y": 0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -0.667,
+        "y": 0.313
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": 0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -0.604,
+        "y": 0.417
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.542,
+        "y": -0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 9,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.521,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.562,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.542,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 12,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.542,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.521,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 6,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.646,
+        "y": -0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.729,
+        "y": -0.333
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -0.875,
+        "y": 0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": 0.104
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -0.687,
+        "y": 0.042
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": 0.042
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -0.833,
+        "y": 0.042
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": 0.083
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -0.729,
+        "y": 0.083
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -1.229,
+        "y": 0.167
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -0.792,
+        "y": 0.146
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -1.292,
+        "y": -0.187
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -0.854,
+        "y": -0.229
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": -0.25
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -0.771,
+        "y": -0.187
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -1.354,
+        "y": -0.146
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -0.854,
+        "y": -0.146
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -1.187,
+        "y": -0.146
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -0.875,
+        "y": -0.104
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -0.771,
+        "y": -0.292
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -1.187,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -1.354,
+        "y": -0.5
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -0.833,
+        "y": -0.479
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -1.333,
+        "y": -0.5
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -0.812,
+        "y": -0.417
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -1.292,
+        "y": -0.417
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -0.729,
+        "y": -0.437
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -1.187,
+        "y": -0.437
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -1.396,
+        "y": -0.479
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -1.354,
+        "y": -0.437
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -0.833,
+        "y": -0.437
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -1.312,
+        "y": 0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -0.812,
+        "y": 0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": 0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -0.812,
+        "y": 0.375
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -1.396,
+        "y": 0.333
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -0.937,
+        "y": 0.333
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -0.833,
+        "y": 0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -0.896,
+        "y": 0.229
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": 0.208
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -0.792,
+        "y": 0.188
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -1.292,
+        "y": 0.125
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -0.875,
+        "y": 0.083
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -1.417,
+        "y": 0.188
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -0.833,
+        "y": 0.188
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -1.417,
+        "y": -0.333
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -0.875,
+        "y": -0.375
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.604,
+        "y": -0.417
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.021,
+        "y": 0.354
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 12,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.021,
+        "y": 0.333
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.083,
+        "y": 0.333
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.021,
+        "y": 0.354
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 9,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1,
+        "y": 0.354
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.104,
+        "y": 0.333
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.125,
+        "y": 0.354
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 6,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.167,
+        "y": 0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.167,
+        "y": 0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.729,
+        "y": -0.354
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.146,
+        "y": 0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.687,
+        "y": -0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -1.062,
+        "y": 0.438
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.604,
+        "y": -0.354
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.979,
+        "y": 0.438
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 9
+      },
+      "offsetMultiplier": {
+        "x": -0.521,
+        "y": -0.333
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -0.687,
+        "y": 0.333
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": -0.354
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -0.646,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -1.146,
+        "y": -0.458
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -0.667,
+        "y": -0.312
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": -0.312
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -0.667,
+        "y": -0.271
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -0.708,
+        "y": -0.479
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": -0.479
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 17
+      },
+      "offsetMultiplier": {
+        "x": -0.896,
+        "y": 0.458
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 3
+      },
+      "offsetMultiplier": {
+        "x": -0.625,
+        "y": 0.458
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 3
+      },
+      "offsetMultiplier": {
+        "x": -1.312,
+        "y": 0.479
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 1
+      },
+      "offsetMultiplier": {
+        "x": -0.521,
+        "y": -0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 2
+      },
+      "offsetMultiplier": {
+        "x": -0.521,
+        "y": -0.417
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 0
+      },
+      "offsetMultiplier": {
+        "x": -0.521,
+        "y": -0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 0
+      },
+      "offsetMultiplier": {
+        "x": -1.354,
+        "y": 0.083
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 0
+      },
+      "offsetMultiplier": {
+        "x": -0.687,
+        "y": 0.063
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 1
+      },
+      "offsetMultiplier": {
+        "x": -0.646,
+        "y": 0.063
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": 1
+      },
+      "offsetMultiplier": {
+        "x": -1.437,
+        "y": 0.042
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 3
+      },
+      "offsetMultiplier": {
+        "x": -1.5,
+        "y": 0.104
+      },
+      "scaleMultiplier": "2",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 2
+      },
+      "offsetMultiplier": {
+        "x": -0.667,
+        "y": -0.021
+      },
+      "scaleMultiplier": "2",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 2
+      },
+      "offsetMultiplier": {
+        "x": -1.292,
+        "y": -0.042
+      },
+      "scaleMultiplier": "2",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": 0
+      },
+      "offsetMultiplier": {
+        "x": -1.479,
+        "y": 0.271
+      },
+      "scaleMultiplier": "3",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": 0
+      },
+      "offsetMultiplier": {
+        "x": -0.646,
+        "y": 0.375
+      },
+      "scaleMultiplier": "3",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": -3
+      },
+      "offsetMultiplier": {
+        "x": -0.75,
+        "y": 0.167
+      },
+      "scaleMultiplier": "4",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": -3
+      },
+      "offsetMultiplier": {
+        "x": -1.271,
+        "y": 0.021
+      },
+      "scaleMultiplier": "4",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": -7
+      },
+      "offsetMultiplier": {
+        "x": -1.479,
+        "y": -0.396
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": -6
+      },
+      "offsetMultiplier": {
+        "x": -1.229,
+        "y": 0.167
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": -6
+      },
+      "offsetMultiplier": {
+        "x": -0.687,
+        "y": 0.25
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 12,
+        "col": -8
+      },
+      "offsetMultiplier": {
+        "x": -1.146,
+        "y": 0.417
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": -8
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": -0.021
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": -8
+      },
+      "offsetMultiplier": {
+        "x": -1.312,
+        "y": -0.021
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": -8
+      },
+      "offsetMultiplier": {
+        "x": -1.396,
+        "y": -0.083
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": -8
+      },
+      "offsetMultiplier": {
+        "x": -1.208,
+        "y": -0.125
+      },
+      "scaleMultiplier": "1",
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": -10
+      },
+      "offsetMultiplier": {
+        "x": -1.333,
+        "y": -0.167
+      },
+      "scaleMultiplier": "5",
+      "type": "finish"
+    },
+    {
+      "pos": {
+        "row": 12,
+        "col": -11
+      },
+      "offsetMultiplier": {
+        "x": -1.021,
+        "y": -0.146
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": -13
+      },
+      "offsetMultiplier": {
+        "x": -0.542,
+        "y": 0.479
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -1.479,
+        "y": 0.354
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 9,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -0.75,
+        "y": -0.25
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": -15
+      },
+      "offsetMultiplier": {
+        "x": -1.354,
+        "y": 0.458
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 6,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -0.708,
+        "y": -0.25
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -1,
+        "y": 0.458
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 4,
+        "col": -12
+      },
+      "offsetMultiplier": {
+        "x": -1.021,
+        "y": -0.417
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": -11
+      },
+      "offsetMultiplier": {
+        "x": -0.562,
+        "y": -0.042
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": -10
+      },
+      "offsetMultiplier": {
+        "x": -0.604,
+        "y": 0.271
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 12,
+        "col": -10
+      },
+      "offsetMultiplier": {
+        "x": -0.937,
+        "y": 0.354
+      },
+      "scaleMultiplier": "1",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": -10
+      },
+      "offsetMultiplier": {
+        "x": -0.771,
+        "y": 0.313
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": -12
+      },
+      "offsetMultiplier": {
+        "x": -1.479,
+        "y": 0.167
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -0.604,
+        "y": 0.042
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": -15
+      },
+      "offsetMultiplier": {
+        "x": -1,
+        "y": -0.437
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 7,
+        "col": -16
+      },
+      "offsetMultiplier": {
+        "x": -1.125,
+        "y": -0.083
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": -15
+      },
+      "offsetMultiplier": {
+        "x": -0.708,
+        "y": -0.208
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 12,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -0.542,
+        "y": 0.417
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": -12
+      },
+      "offsetMultiplier": {
+        "x": -0.708,
+        "y": 0.354
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": -10
+      },
+      "offsetMultiplier": {
+        "x": -1.479,
+        "y": 0.479
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 9,
+        "col": -16
+      },
+      "offsetMultiplier": {
+        "x": -0.896,
+        "y": 0.104
+      },
+      "scaleMultiplier": "2",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": -18
+      },
+      "offsetMultiplier": {
+        "x": -1.333,
+        "y": -0.375
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 5,
+        "col": -18
+      },
+      "offsetMultiplier": {
+        "x": -1.021,
+        "y": 0.375
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 11,
+        "col": -18
+      },
+      "offsetMultiplier": {
+        "x": -1.458,
+        "y": 0.375
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 3,
+        "col": -16
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": 0.021
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": -16
+      },
+      "offsetMultiplier": {
+        "x": -1.187,
+        "y": 0.083
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": -14
+      },
+      "offsetMultiplier": {
+        "x": -1.437,
+        "y": 0.438
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": -13
+      },
+      "offsetMultiplier": {
+        "x": -0.896,
+        "y": -0.5
+      },
+      "scaleMultiplier": "3",
+      "type": "boost"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": -6
+      },
+      "offsetMultiplier": {
+        "x": -1.125,
+        "y": -0.229
+      },
+      "scaleMultiplier": "1",
+      "type": "finish"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": -6
+      },
+      "offsetMultiplier": {
+        "x": -0.625,
+        "y": -0.167
+      },
+      "scaleMultiplier": "1",
+      "type": "finish"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 18
+      },
+      "offsetMultiplier": {
+        "x": -1.146,
+        "y": -0.312
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 20
+      },
+      "offsetMultiplier": {
+        "x": -1.083,
+        "y": 0.375
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -1.187,
+        "y": 0.125
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -1.229,
+        "y": -0.229
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 26
+      },
+      "offsetMultiplier": {
+        "x": -0.75,
+        "y": -0.187
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -1.229,
+        "y": -0.375
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -0.771,
+        "y": -0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 29
+      },
+      "offsetMultiplier": {
+        "x": -0.812,
+        "y": -0.5
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -1.292,
+        "y": 0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -1.312,
+        "y": 0.229
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -0.854,
+        "y": 0.396
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 1,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -1.208,
+        "y": -0.437
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 2,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -0.771,
+        "y": -0.479
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 32
+      },
+      "offsetMultiplier": {
+        "x": -0.833,
+        "y": -0.479
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 14,
+        "col": 23
+      },
+      "offsetMultiplier": {
+        "x": -0.792,
+        "y": 0.042
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 13,
+        "col": 34
+      },
+      "offsetMultiplier": {
+        "x": -1.25,
+        "y": 0.333
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 8,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -0.771,
+        "y": 0.083
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    },
+    {
+      "pos": {
+        "row": 10,
+        "col": 37
+      },
+      "offsetMultiplier": {
+        "x": -1.312,
+        "y": 0.083
+      },
+      "scaleMultiplier": 1,
+      "type": "hole"
+    }
+  ]
+}

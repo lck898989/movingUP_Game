@@ -33,12 +33,10 @@ export default class OverController extends cc.Component {
             setTimeout(() => {
                 sceneManager.LS = LayerState.NONE;
                 let curLevel: number = Number(sceneManager.getLevel());
-                if(curLevel + 1 < 6) {
-                    sceneManager.setLevel(curLevel + 1);
-                    let animName: string = this.node.getComponent(cc.Animation).getClips[1];
-                    this.node.getComponent(cc.Animation).play(animName);
-                    cc.director.loadScene("Game");
-                }
+                sceneManager.setLevel(curLevel + 1);
+                let animName: string = this.node.getComponent(cc.Animation).getClips[1];
+                this.node.getComponent(cc.Animation).play(animName);
+                cc.director.loadScene("Game");
 
             },500);
         }
