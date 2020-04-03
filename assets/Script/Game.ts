@@ -46,6 +46,8 @@ export default class Game extends cc.Component {
     overMenu: cc.Node = null;
     @property(cc.Node)
     boardTouch: cc.Node = null;
+    @property(cc.AudioClip)
+    loseAudio: cc.AudioClip = null;
 
     private speed: number = 1;
     
@@ -193,6 +195,7 @@ export default class Game extends cc.Component {
             }
             
         } else if(data.over === "lose") {
+            cc.audioEngine.playEffect(this.loseAudio,false);
             await this.ballToHoleHandle(data.node);
             console.log("游戏失败");
             // this.overMenu.active = true;

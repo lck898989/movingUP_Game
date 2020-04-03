@@ -1,6 +1,6 @@
 {
-    "col": 15,
-    "row": 10,
+    "col": 40,
+    "row": 40,
     "spikeOffset": 2,
     "objects": [
       {
@@ -887,42 +887,6 @@
         "offsetMultiplier": {
           "x": -1.062,
           "y": 0.438
-        },
-        "scaleMultiplier": 1,
-        "type": "hole"
-      },
-      {
-        "pos": {
-          "row": 2,
-          "col": 9
-        },
-        "offsetMultiplier": {
-          "x": -0.604,
-          "y": -0.354
-        },
-        "scaleMultiplier": 1,
-        "type": "hole"
-      },
-      {
-        "pos": {
-          "row": 2,
-          "col": 9
-        },
-        "offsetMultiplier": {
-          "x": -0.979,
-          "y": 0.438
-        },
-        "scaleMultiplier": 1,
-        "type": "hole"
-      },
-      {
-        "pos": {
-          "row": 1,
-          "col": 9
-        },
-        "offsetMultiplier": {
-          "x": -0.521,
-          "y": -0.333
         },
         "scaleMultiplier": 1,
         "type": "hole"
